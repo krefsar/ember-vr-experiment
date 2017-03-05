@@ -1,10 +1,8 @@
 <a-scene>
-  {{#vr-camera
+  {{vr-camera
     positionX=0
     positionY=2
     positionZ=4 }}
-    <a-cursor color='#4CC3D9' fuse='true' fuse-timeout='3000'></a-cursor>
-  {{/vr-camera}}
 
   {{outlet}}
 </a-scene>

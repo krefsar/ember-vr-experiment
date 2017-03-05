@@ -13,8 +13,6 @@ export default Ember.Component.extend(PositionMixin, OnGazeMixin, {
 
   didInsertElement() {
     this._super(...arguments);
-    console.log('inserting element');
-    console.log(this.get('eventListener'));
     this.$().attr(this.get('eventListener'), this.get('gazeAttribute'));
   }
 });

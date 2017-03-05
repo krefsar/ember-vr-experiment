@@ -1,1 +1,7 @@
-{{yield}}
+{{#if hasBlock}}
+  {{yield}}
+
+{{else}}
+  {{vr-cursor color='red'
+    timeout=1500 }}
+{{/if}}
