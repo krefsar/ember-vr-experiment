@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('blueRoute');
+  this.route('redRoute');
 });
 
 export default Router;

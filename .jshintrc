@@ -3,7 +3,8 @@
     "server",
     "document",
     "window",
-    "-Promise"
+    "-Promise",
+    "AFRAME"
   ],
   "browser": true,
   "boss": true,
